@@ -1310,10 +1310,10 @@
 /* Basic */
 
 	body {
-		background-color: #183026;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-color: #ffff99;
+		background-image: url("images/overlay.png"), url("../../images/upfeathers.png");
+		background-repeat: repeat;
+		background-size: auto;
 		background-position: top left, center 0;
 		background-attachment: fixed, fixed;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -1374,6 +1374,13 @@
 		letter-spacing: 5px;
 	}
 
+	h4 {
+		font-size: .75em;
+		font-weight: 200;
+		text-transform: none;
+		letter-spacing: 0;
+	}
+
 	strong, b {
 		font-weight: 400;
 	}
@@ -1423,6 +1430,7 @@
 
 	p, ul, ol, dl, table {
 		margin-bottom: 1em;
+
 	}
 
 	header {
@@ -1770,7 +1778,7 @@
 			top: -9em;
 			left: 50%;
 			height: 9em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px #000;
 		}
 
 		.box:before {
@@ -1869,7 +1877,7 @@
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					border-left: solid 1px #000;
 				}
 
 				.box.style2 .inner .row {
@@ -1883,7 +1891,7 @@
 						top: 50%;
 						left: 20px;
 						width: calc(100% - 40px);
-						border-bottom: solid 1px #fff;
+						border-bottom: solid 1px #000;
 					}
 
 				.box.style2 .inner .image {
@@ -1927,7 +1935,7 @@
 
 	#header {
 		position: relative;
-		color: #fff;
+		color: rgba(0, 0, 0, 0.75);
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 0;
@@ -1947,8 +1955,8 @@
 			}
 
 			#header header p {
-				border-top: solid 1px rgba(255, 255, 255, 0.5);
-				color: rgba(255, 255, 255, 0.75);
+				border-top: solid 1px rgba(0, 0, 0, 0.5);
+				color: rgba(0, 0, 0, 0.75);
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.1875);
 				font-size: 1em;
 				text-transform: uppercase;
@@ -1960,7 +1968,7 @@
 				#header header p:before {
 					content: '';
 					display: block;
-					border-top: solid 1px rgba(255, 255, 255, 0.5);
+					border-top: solid 1px rgba(0, 0, 0, 0.5);
 					margin: 4px 0 0.8em 0;
 				}
 
@@ -1978,7 +1986,7 @@
 				bottom: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				border-left: solid 1px #000;
 			}
 
 			#header footer:before {
@@ -2001,14 +2009,14 @@
 		color: #fff;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #669999 url("images/banner.svg") bottom center no-repeat;
+		background: #A7DBD8 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
 	}
 
 		#banner .button {
-			color: #669999;
+			color: #A7DBD8;
 			text-shadow: 0 0 0.5px rgba(53, 184, 130, 0.25);
 		}
 
@@ -2043,7 +2051,7 @@
 
 	#footer {
 		position: relative;
-		color: #fff;
+		color: #000;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		margin: 4.5em 0 0 0;
@@ -2056,11 +2064,11 @@
 			top: -4.5em;
 			left: 50%;
 			height: 4.5em;
-			border-left: solid 1px #fff;
+			border-left: solid 1px #000;
 		}
 
 		#footer a {
-			color: #fff;
+			color: #000;
 			text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
@@ -2074,7 +2082,7 @@
 		#footer .icons {
 			padding: 0.75em 2em 0.75em 2em;
 			border-radius: 3em;
-			border: solid 1px #fff;
+			border: solid 1px #000;
 			display: inline-block;
 			margin: 0 0 3em 0;
 		}

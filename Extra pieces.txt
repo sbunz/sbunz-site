@@ -1,25 +1,26 @@
-		<!-- Portfolio -->
-			<article class="container box style2">
-				<header>
-					<h2>TITLE</h2>
-					<p>SUBTITLE/DESCRIPTION<br />
-					SUBTITLE/DESCRIPTION CONTINUED</p>
-				</header>
-				<div class="inner gallery">
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-					</div>
-					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
-					</div>
-				</div>
-			</article>
+<!-- Portfolio -->
+	<article class="container box style2">
+		<header>
+			<h2>TITLE</h2>
+			<h4>tacocat<br />
+			SUBTITLE/DESCRIPTION CONTINUED</h4>
+		</header>
+		<div class="inner gallery">
+			<div class="row 0%">
+				<div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+			</div>
+			<div class="row 0%">
+				<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+				<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="PHOTO DESCRIPTION" /></a></div>
+			</div>
+		</div>
+	</article>
+
 
 		<!-- Feature 2 -->
 			<article class="container box style1 left">
